@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-fx038NkLY4U1TCrBDiu5FWPEa9eiZu01EiLryshJbCo=" crossorigin="anonymous">
+  <title>fortuneTelling</title>
+</head>
+<body class="bg-primary-subtle">
+<header>
+ <nav class="navbar bg-primary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">あなたの職業診断</a>
+  </div>
+ </nav>
+</header>
+
+<div class="container pt-f5">
+  <h1>あなたに向いている職業を神託します</h1>
+  <p>直感的に選んでください</p>
+  
+<div class="row">
+ <div class="col-sm-9 col-lg-6">
+  <div class="input-group mb-3">
+  //診断機能の埋め込み
+  <div id = firstButton>
+   <button class="btn btn-outline-danger" id="active">自分から行動したい</button>
+   <button class="btn btn-outline-primary" id="passive">味方の支援に徹したい</button>
+   </div>
+  </div>
+ </div>
+</div>
+
+   
+<div id="secondButton"></div>  
+
+  <div class="row">
+<div class="col-sm-9 col-lg-6">
+<div class="input-group mb-3">
+  <button class="btn btn-primary" id="assessment">診断する</button>
+</div>
+</div>
+  </div>
+
+ <div id="result-area"></div>
+ <div id ="tweet-area"></div>
+</div>
+ <script src="professionJudge.js"></script>
+  
+</body>
+</html>
