@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
     finalA.innerHTML = '';
     const heading = document.createElement('h2');
-    heading.innerText = 'あなたに向いている職業はは魔法使いです。最大の武器は魔術です。';
+    heading.innerText = 'あなたに向いている職業は魔法使いです。最大の武器は魔術です。';
     finalA.appendChild(heading);
   });
 });
