@@ -1,7 +1,7 @@
-const heroButton = document.getElementbyId('hero');
-const warriorButton = document.getElementbyId('warrior');
-const fighterButton = document.getElementbyId('fighter');
-const finalA = document.getElementbyId('finalA');
+const heroButton = document.getElementById('hero');
+const warriorButton = document.getElementById('warrior');
+const fighterButton = document.getElementById('fighter');
+const finalA = document.getElementById('finalA');
 
 heroButton.addEventListener(
   'click',
