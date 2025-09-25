@@ -1,6 +1,6 @@
 const heroButton = document.getElementbyId('hero');
 const warriorButton = document.getElementbyId('warrior');
-const magicianButton = document.getElementbyId('magician');
+const fighterButton = document.getElementbyId('fighter');
 const finalA = document.getElementbyId('finalA');
 
 heroButton.addEventListener(
@@ -24,12 +24,12 @@ heroButton.addEventListener(
     finalA.appendChild(heading);
   })
 
-    magicianButton.addEventListener(
+    fighterButton.addEventListener(
   'click',
   ()=>{
     finalA.innerHTML='';
 
     const heading= document.createElement('h2');
-    heading.innerText='あなたに向いている職業は魔法使いです。最大の武器は魔術です。';
+    heading.innerText='あなたに向いている職業は武闘家です。最大の武器は己の拳です。';
     finalA.appendChild(heading);
   })
